@@ -1,0 +1,16 @@
+/*Header*/
+
+.side-menu {
+    float: left;
+    position: relative;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+    line-height: 2em;
+    margin-top: 10px;
+}
