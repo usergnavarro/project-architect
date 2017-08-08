@@ -1,9 +1,24 @@
+/*Content*/
+
+img {
+    max-width: 100%;
+}
+
+img:hover {
+    opacity: .8;
+}
+
 /*Header*/
+header {
+    position: static;
+}
 
 .side-menu {
     float: left;
-    position: relative;
+    position: fixed;
     font-size: 30px;
+    margin-left: 30px;
+    height: 800px;
 }
 
 ul {
@@ -12,5 +27,47 @@ ul {
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
     line-height: 2em;
-    margin-top: 10px;
+    margin-top: 30px;
 }
+
+a {
+    color: #9c9c9c;
+}
+
+.brand {
+    text-align: center;
+    font-family: 'Crushed', cursive;
+}
+
+.brand-title {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.icon-brand {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/*Article*/
+
+.side-layout{
+    max-width: calc(50% + 620px/2);
+    float: right;
+}
+
+span.title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    color: #FFF;
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    padding-right: 50px;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+
