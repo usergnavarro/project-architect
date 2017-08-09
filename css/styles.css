@@ -145,6 +145,11 @@ span.title {
         font-size: 18px;
     }
 
+    p {
+        font-size: 16px;
+        margin-top: -10px;
+    }
+
     .list-format {
         display: inline-flex;
     }
@@ -166,8 +171,7 @@ span.title {
 
     .images-position {
     margin-top: 10px;
-
-}
+    }
 
     /*Article*/
 
@@ -181,14 +185,8 @@ span.title {
     }
     /*Section*/
 
-    .img-style {
-        width: auto;
-        height: auto;
-    }
-
-    .img-style-2 {
-        width: 310px;
-        height: 300px;
+    .images-position-2 {
+        margin-top: 0px;
     }
 
 }
@@ -202,11 +200,15 @@ span.title {
     }
 
     .brand-title {
-        font-size: 60px;
+        font-size: 65px;
     }
 
     .icon-brand {
         font-size: 20px;
+    }
+
+    p {
+        font-size: 18px;
     }
 
     .margin-style {
@@ -215,18 +217,66 @@ span.title {
 
 /*Section*/
 
+    span.title {
+        font-size: 18px;
+        bottom: 10px;
+    }
+/*Section*/
+
     .images-position {
         margin-top: 10px;
     }
 
-/*Section*/
-
-    .img-style-2 {
-        width: 320px;
-        margin-left: 40px;
-    }
 }
 
 @media only screen and (min-width: 425px) {
+/*Header*/
+
+    .side-menu {
+        font-size: 22px;
+    }
+
+    .brand-title {
+        font-size: 70px;
+    }
+
+    .icon-brand {
+        font-size: 20px;
+    }
+
+    p {
+        margin-top: -10px;
+    }
+
+    .margin-style {
+        margin-top: 40px;
+    }
+
+/*Section*/
+
+    span.title {
+        font-size: 20px;
+        bottom: 15px;
+    }
+
+
+@media only screen and (min-width: 768px) {
+
+    .side-menu {
+        font-size: 26px;
+        margin-left: 180px;
+    }
+
+    .brand-title {
+        font-size: 80px;
+    }
+
+    .icon-brand {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 25px;
+    }
 
 }
