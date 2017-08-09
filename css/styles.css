@@ -2,6 +2,7 @@
 
 img {
     max-width: 100%;
+    max-height: 100%;
 }
 
 img:hover {
@@ -86,7 +87,7 @@ span.title {
 .text-position {
     margin-top: 30px;
     margin-bottom: 30px;
-    background-color: #607B8B;
+    background-color: #EE5C42;
     float: right;
     height: 200px;
     max-width: 100%;
@@ -95,6 +96,7 @@ span.title {
 .text-align {
     text-align: center;
     font-size: 20px;
+    text-transform: uppercase;
     font-weight: bold;
     font-family: 'Poiret One', cursive;
     color: #FFF;
@@ -103,4 +105,128 @@ span.title {
 .jumbotron {
     width: 1024px;
     max-height: 100%;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+    border-radius: 0px;
+}
+
+/*Section*/
+
+.images-position-2 {
+    float: right;
+    position: initial;
+    margin-bottom: 20px;
+}
+
+/* Media */
+
+@media only screen and (min-width: 320px) {
+
+    /*Header*/
+
+    .side-menu {
+        font-size: 15px;
+        position: relative;
+        height: 200px;
+        margin-left: 0px;
+    }
+
+    .brand {
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+
+    .brand-title {
+        font-size: 50px;
+    }
+
+    .icon-brand {
+        font-size: 18px;
+    }
+
+    .list-format {
+        display: inline-flex;
+    }
+
+    .margin-right {
+        margin-right: 10px;
+    }
+
+    /*Section*/
+
+    span.title {
+        font-size: 16px;
+        bottom: 10px;
+    }
+
+    .margin-top {
+        margin-top: 10px;
+    }
+
+    .images-position {
+    margin-top: 10px;
+
+}
+
+    /*Article*/
+
+    .text-position{
+        height: auto;
+    }
+
+    .container .jumbotron,
+    .container-fluid .jumbotron {
+        margin-right: 8px;
+    }
+    /*Section*/
+
+    .img-style {
+        width: auto;
+        height: auto;
+    }
+
+    .img-style-2 {
+        width: 310px;
+        height: 300px;
+    }
+
+}
+
+@media only screen and (min-width: 375px) {
+
+/*Header*/
+
+    .side-menu {
+        font-size: 18px;
+    }
+
+    .brand-title {
+        font-size: 60px;
+    }
+
+    .icon-brand {
+        font-size: 20px;
+    }
+
+    .margin-style {
+        margin-top: 20px;
+    }
+
+/*Section*/
+
+    .images-position {
+        margin-top: 10px;
+    }
+
+/*Section*/
+
+    .img-style-2 {
+        width: 320px;
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+
 }
