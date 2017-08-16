@@ -21,6 +21,7 @@ header {
 .side-menu {
     float: left;
     position: fixed;
+    display: flex;
     font-size: 30px;
     margin-left: 30px;
     height: 800px;
@@ -48,6 +49,7 @@ a {
 .brand-title {
     font-size: 70px;
     font-weight: bold;
+    position: relative;
 }
 
 .icon-brand {
@@ -119,3 +121,74 @@ span.title {
     margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 320px) {
+
+    /*Header*/
+
+    .list-format {
+        font-size: 15px;
+    }
+    .side-menu {
+        position: relative;
+        height: 200px;
+    }
+    .brand {
+        margin-top: 0px;
+    }
+
+    .brand-title {
+        font-size: 50px;
+    }
+
+    .icon-brand {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+        margin-top: -10px;
+    }
+
+    .list-format {
+        display: inline-flex;
+        margin-left: -40px;
+    }
+
+    .margin-right {
+        margin-right: 10px;
+    }
+    /*Section*/
+
+    span.title {
+        font-size: 16px;
+        bottom: 10px;
+    }
+
+    .margin-top {
+        margin-top: 10px;
+    }
+
+    .images-position {
+    margin-top: 10px;
+    }
+
+    /*Article*/
+
+    .text-position{
+        height: auto;
+    }
+
+    .container .jumbotron,
+    .container-fluid .jumbotron {
+        margin-right: 8px;
+    }
+    /*Section*/
+
+    .images-position-2 {
+        margin-top: 0px;
+    }
+
+}
+
+
+}
